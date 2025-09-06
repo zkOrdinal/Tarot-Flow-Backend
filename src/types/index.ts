@@ -1,4 +1,5 @@
 // User Types
+// src/types/index.ts
 export interface User {
   id: string;
   walletAddress: string;
@@ -21,6 +22,7 @@ export interface User {
     consentDate: Date;
   };
   createdAt: Date;
+  updatedAt: Date;
   lastLogin?: Date;
 }
 

@@ -90,6 +90,7 @@ export class GolemDBService {
       role: userData.role || 'user',
       whitelistStatus: userData.whitelistStatus || 'pending',
       createdAt: new Date(),
+      updatedAt: new Date(),
       ...userData
     };
 
