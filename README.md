@@ -21,6 +21,7 @@ A Web3 video storefront built on Base network with GolemDB database, featuring t
 - **Payments**: USDC and ETH via Base Minikit
 
 ## 📁 Project Structure
+
 src/
 ├── controllers/ # API route handlers
 ├── services/ # Business logic and external services
@@ -43,7 +44,6 @@ scripts/
 3. **Environment Variables**: Copy `.env.example` to `.env` and configure
 
 ### Installation
-bash
 
 Clone the repository
 
@@ -61,8 +61,6 @@ cp .env.example .env
 Edit .env with your configuration
 
 ### Environment Variables
-
-env
 
 Network Configuration
 
@@ -141,8 +139,6 @@ bun run dev
 
 ## 🧪 Testing
 
-bash
-
 Run setup verification
 
 bun run scripts/testSetup.ts
@@ -205,7 +201,7 @@ bun run build
 
 ## 📄 License
 
-MIT License - see LICENSE file for details
+GPLv3 License - see LICENSE file for details
 
 ## 🙏 Acknowledgments
 
