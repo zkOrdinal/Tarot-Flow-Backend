@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "bun run --hot src/mainServer.ts",
     "start": "bun run src/mainServer.ts",
-    "create-admin": "bun run scripts/createAdmin.ts",
+    "create-admin": "bun run src/scripts/createAdmin.ts",
     "test": "bun test",
     "build": "tsc"
   },
