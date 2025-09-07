@@ -2,7 +2,7 @@
 
 A Web3 video storefront built on Base network with GolemDB database, featuring tarot card drawing, yoga/meditation videos, and hybrid payment system.
 
-Made during [ETHWarsaw Hackathon](https://www.ethwarsaw.dev/hackathon).
+Made during [ETHWarsaw 2025 Hackathon](https://www.ethwarsaw.dev/hackathon).
 
 ## 🚀 Features
 
@@ -24,6 +24,7 @@ Made during [ETHWarsaw Hackathon](https://www.ethwarsaw.dev/hackathon).
 
 ## 📁 Project Structure
 
+```
 src/
 ├── controllers/ # API route handlers
 ├── services/ # Business logic and external services
@@ -36,6 +37,7 @@ src/
 scripts/
 ├── createAdmin.ts # Admin user bootstrap
 └── testSetup.ts # Setup verification
+```
 
 ## 🛠️ Setup Instructions
 
@@ -46,7 +48,7 @@ scripts/
 3. **Environment Variables**: Copy `.env.example` to `.env` and configure
 
 ### Installation
-
+```bash
 Clone the repository
 
 git clone 
@@ -61,9 +63,9 @@ Copy and configure environment variables
 cp .env.example .env
 
 Edit .env with your configuration
-
+```
 ### Environment Variables
-
+```env
 Network Configuration
 
 BASE_RPC_URL=https://sepolia.base.org
@@ -86,9 +88,9 @@ Server
 
 PORT=3000
 NODE_ENV=development
-
+```
 ### Initial Setup
-
+```bash
 Test the setup
 
 bun run scripts/testSetup.ts
@@ -100,7 +102,7 @@ bun run scripts/createAdmin.ts
 Start development server
 
 bun run dev
-
+```
 ## 🎯 API Endpoints
 
 ### Public Endpoints
@@ -138,7 +140,7 @@ bun run dev
 - **Input Validation**: Comprehensive request validation
 
 ## 🧪 Testing
-
+```bash
 Run setup verification
 
 bun run scripts/testSetup.ts
@@ -150,7 +152,7 @@ bun run dev
 Build for production
 
 bun run build
-
+```
 ## 🚀 Deployment
 
 1. Ensure all environment variables are set
