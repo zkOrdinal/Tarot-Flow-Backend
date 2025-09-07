@@ -1,4 +1,4 @@
-# Tarot Video Storefront Backend
+# Tarot Flow Storefront Backend
 
 A Web3 video storefront built on Base network with GolemDB database, featuring tarot card drawing, yoga/meditation videos, and hybrid payment system.
 
