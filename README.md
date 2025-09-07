@@ -24,6 +24,7 @@ Made during [ETHWarsaw Hackathon](https://www.ethwarsaw.dev/hackathon).
 
 ## 📁 Project Structure
 
+```
 src/
 ├── controllers/ # API route handlers
 ├── services/ # Business logic and external services
@@ -36,6 +37,7 @@ src/
 scripts/
 ├── createAdmin.ts # Admin user bootstrap
 └── testSetup.ts # Setup verification
+```
 
 ## 🛠️ Setup Instructions
 
