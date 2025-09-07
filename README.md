@@ -48,7 +48,7 @@ scripts/
 3. **Environment Variables**: Copy `.env.example` to `.env` and configure
 
 ### Installation
-
+```bash
 Clone the repository
 
 git clone 
@@ -63,9 +63,9 @@ Copy and configure environment variables
 cp .env.example .env
 
 Edit .env with your configuration
-
+```
 ### Environment Variables
-
+```env
 Network Configuration
 
 BASE_RPC_URL=https://sepolia.base.org
@@ -88,9 +88,9 @@ Server
 
 PORT=3000
 NODE_ENV=development
-
+```
 ### Initial Setup
-
+```bash
 Test the setup
 
 bun run scripts/testSetup.ts
@@ -102,7 +102,7 @@ bun run scripts/createAdmin.ts
 Start development server
 
 bun run dev
-
+```
 ## 🎯 API Endpoints
 
 ### Public Endpoints
@@ -140,7 +140,7 @@ bun run dev
 - **Input Validation**: Comprehensive request validation
 
 ## 🧪 Testing
-
+```bash
 Run setup verification
 
 bun run scripts/testSetup.ts
@@ -152,7 +152,7 @@ bun run dev
 Build for production
 
 bun run build
-
+```
 ## 🚀 Deployment
 
 1. Ensure all environment variables are set
