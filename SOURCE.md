@@ -89,8 +89,6 @@ NODE_ENV=development
 
 ### Initial Setup
 
-bash
-
 Test the setup
 
 bun run scripts/testSetup.ts
