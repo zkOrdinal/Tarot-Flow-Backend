@@ -25,6 +25,7 @@ import { randomUUID } from 'crypto';
  * GolemDB Service for managing all database operations
  */
 export class GolemDBService {
+
   private client: GolemBaseClient;
   private encoder: TextEncoder;
   private decoder: TextDecoder;
@@ -339,6 +340,19 @@ export class GolemDBService {
     } catch (error) {
       console.error("Error fetching tarot cards:", error);
       return [];
+    }
+  }
+
+  /**
+   * Initialize the GolemDB service
+   */
+  public async initialize(): Promise<void> {
+    try {
+      await this.initializeClient();
+      console.log("✅ Connected to GolemDB on Holesky testnet!");
+    } catch (error) {
+      console.error("❌ Failed to initialize GolemDB:", error);
+      throw error;
     }
   }
 
